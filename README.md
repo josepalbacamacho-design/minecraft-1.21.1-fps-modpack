@@ -14,6 +14,8 @@ mods de tendencia y mods "olvidados" que casi nadie incluye.
 
 | Carpeta / archivo | Qué es |
 |---|---|
+| `Modpack-FPS-1.21.1-Fabric.zip` | **El ZIP listo para descomprimir.** Dentro viene la carpeta `mods/` con los 110 mods. |
+| `opcionales.zip` | ZIP con los 22 mods opcionales (no los copies todos, son alternativas). |
 | `mods/` | **110 mods** — el modpack principal. Copia TODO el contenido de esta carpeta a tu `mods`. |
 | `opcionales/` | **22 mods** que son alternativas entre sí o que dependen de tu hardware/shaders. **No metas toda la carpeta de golpe**, lee el aviso de cada uno. |
 | `alternativa-nvidia/` | Sodium 0.6.13 + Sodium Extra 0.6.0 + **Nvidium** para GPUs NVIDIA (sustituyen a los del set principal). |
@@ -31,23 +33,35 @@ mods de tendencia y mods "olvidados" que casi nadie incluye.
 4. **Fabric API**: ya viene incluida en `mods/`, no la descargues aparte.
 5. RAM asignada recomendada: **4 GB mínimo, 6–8 GB ideal** (con FerriteCore y Chloride el juego consume mucho menos).
 
-## Instalación (3 formas)
+## Instalación (4 formas)
 
-### Opción A — Manual (la más simple)
+### Opción A — ZIP (la más rápida)
+1. Descarga **`Modpack-FPS-1.21.1-Fabric.zip`** (botón *Download* en el repositorio).
+2. Descomprímelo **dentro de la carpeta `.minecraft`** de tu launcher:
+   - Windows: `%appdata%\.minecraft\`
+   - Linux: `~/.minecraft/`
+   - macOS: `~/Library/Application Support/minecraft/`
+3. Si ya tienes una carpeta `mods`, se fusiona: no borra nada de lo que ya tengas.
+4. Abre el perfil de Fabric 1.21.1 con Java 21. Listo.
+
+### Opción B — Manual
 1. Instala Fabric 1.21.1 con el instalador oficial.
 2. Abre la carpeta de tu perfil: `%appdata%\.minecraft\mods` (Windows) o `~/.minecraft/mods` (Linux/macOS).
 3. **Copia todos los archivos `.jar` de la carpeta `mods/` de este repo** ahí dentro.
 4. Inicia el perfil de Fabric. Ya está.
 
-### Opción B — Importar el `.mrpack`
+### Opción C — Importar el `.mrpack`
 1. Abre **Modrinth App** (o Prism Launcher).
 2. "Add instance" → "Import from file" → elige `Modpack-FPS-1.21.1-Fabric.mrpack`.
 3. La app descargará y colocará todos los mods automáticamente.
 
-### Opción C — Script de descarga
+### Opción D — Script de descarga
 - Windows: doble clic en `descargar-mods.bat`.
 - Linux/macOS: `bash descargar-mods.sh`.
 Descarga los 110 mods a la carpeta `mods/` desde Modrinth (útil si clonaste solo el texto del repo).
+
+> **¿Prefieres no bajar el repo entero?** En GitHub: botón verde **Code → Download ZIP** descarga todo
+> el repositorio en un ZIP (incluye jars, docs y los ZIP de mods).
 
 ---
 
