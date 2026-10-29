@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 set -e
 mkdir -p mods
-echo "Descargando mods de rendimiento para Minecraft 1.21.1 Fabric..."
 curl -L -s -o "mods/sodium-fabric-0.8.13%2Bmc1.21.1.jar" "https://cdn.modrinth.com/data/AANobbMI/versions/SMxNOGZ6/sodium-fabric-0.8.13%2Bmc1.21.1.jar"
 curl -L -s -o "mods/lithium-fabric-0.15.4%2Bmc1.21.1.jar" "https://cdn.modrinth.com/data/gvQqBUqZ/versions/N08Z8wog/lithium-fabric-0.15.4%2Bmc1.21.1.jar"
 curl -L -s -o "mods/ferritecore-7.0.3-fabric.jar" "https://cdn.modrinth.com/data/uXXizFIs/versions/sOzRw3CG/ferritecore-7.0.3-fabric.jar"
@@ -13,7 +12,6 @@ curl -L -s -o "mods/moreculling-fabric-1.21.1-1.0.10.jar" "https://cdn.modrinth.
 curl -L -s -o "mods/cloth-config-15.0.140-fabric.jar" "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar"
 curl -L -s -o "mods/BadOptimizations-2.4.1-1.21.1.jar" "https://cdn.modrinth.com/data/g96Z4WVZ/versions/S2qthD5S/BadOptimizations-2.4.1-1.21.1.jar"
 curl -L -s -o "mods/krypton-0.2.8.jar" "https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar"
-curl -L -s -o "mods/c2me-fabric-mc1.21.1-0.4.0-alpha.0.30.jar" "https://cdn.modrinth.com/data/VSNURh3q/versions/KxcgERSN/c2me-fabric-mc1.21.1-0.4.0-alpha.0.30.jar"
 curl -L -s -o "mods/ScalableLux-0.1.0.1%2Bfabric.d0d58ab-all.jar" "https://cdn.modrinth.com/data/Ps1zyz6x/versions/Yx1tgJMI/ScalableLux-0.1.0.1%2Bfabric.d0d58ab-all.jar"
 curl -L -s -o "mods/threadtweak-fabric-0.1.5%2Bmc1.21.1.jar" "https://cdn.modrinth.com/data/vSEH1ERy/versions/F4sjmsi3/threadtweak-fabric-0.1.5%2Bmc1.21.1.jar"
 curl -L -s -o "mods/noisium-fabric-2.3.0%2Bmc1.21-1.21.1.jar" "https://cdn.modrinth.com/data/KuNKN7d2/versions/4sGQgiu2/noisium-fabric-2.3.0%2Bmc1.21-1.21.1.jar"
@@ -21,7 +19,6 @@ curl -L -s -o "mods/particle_core-0.3.3%2B1.21.jar" "https://cdn.modrinth.com/da
 curl -L -s -o "mods/fzzy_config-0.7.7%2B1.21.jar" "https://cdn.modrinth.com/data/hYykXjDp/versions/zFccjYag/fzzy_config-0.7.7%2B1.21.jar"
 curl -L -s -o "mods/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar" "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar"
 curl -L -s -o "mods/AsyncParticles-21.1.4.10%2B1.21.1.jar" "https://cdn.modrinth.com/data/c3onkd5k/versions/qLpoOaqY/AsyncParticles-21.1.4.10%2B1.21.1.jar"
-curl -L -s -o "mods/zfastnoise-1.0.14%2B1.21.jar" "https://cdn.modrinth.com/data/OnlVIpq5/versions/73DMCY3S/zfastnoise-1.0.14%2B1.21.jar"
 curl -L -s -o "mods/zconfig-1.0.0%2B1.21.x.jar" "https://cdn.modrinth.com/data/4qmvXRB9/versions/yD19P1nG/zconfig-1.0.0%2B1.21.x.jar"
 curl -L -s -o "mods/structure_layout_optimizer-fabric-1.0.12.jar" "https://cdn.modrinth.com/data/ayPU0OHc/versions/522Wudew/structure_layout_optimizer-fabric-1.0.12.jar"
 curl -L -s -o "mods/resourcefulconfig-fabric-1.21-3.0.11.jar" "https://cdn.modrinth.com/data/M1953qlQ/versions/dQh99ERC/resourcefulconfig-fabric-1.21-3.0.11.jar"
@@ -57,7 +54,7 @@ curl -L -s -o "mods/boatiview-fabric-0.0.6-1.21.1.jar" "https://cdn.modrinth.com
 curl -L -s -o "mods/FeyTweaks-1.21-1.2.8.jar" "https://cdn.modrinth.com/data/Wa72oW2W/versions/XAG8m7Hj/FeyTweaks-1.21-1.2.8.jar"
 curl -L -s -o "mods/Gnetum-4.6.3%2B1.21.1-fabric.jar" "https://cdn.modrinth.com/data/7MoE34WK/versions/qA5RXlOH/Gnetum-4.6.3%2B1.21.1-fabric.jar"
 curl -L -s -o "mods/entity-view-distance-1.3.0%2B1.21.jar" "https://cdn.modrinth.com/data/ihnBJ6on/versions/2NuH7W1K/entity-view-distance-1.3.0%2B1.21.jar"
-curl -L -s -o "mods/BetterGrassify-1.8.7%2Bfabric.1.21.1.jar" "https://cdn.modrinth.com/data/m5T5xmUy/versions/iCE9pQaj/BetterGrassify-1.8.7%2Bfabric.1.21.1.jar"
+curl -L -s -o "mods/BetterGrassify-1.8.3%2Bfabric.1.21.1.jar" "https://cdn.modrinth.com/data/m5T5xmUy/versions/bVuFL4dp/BetterGrassify-1.8.3%2Bfabric.1.21.1.jar"
 curl -L -s -o "mods/betterbiomeblend-1.5.2.jar" "https://cdn.modrinth.com/data/Xh8hkQmD/versions/HZlLCOct/betterbiomeblend-1.5.2.jar"
 curl -L -s -o "mods/modelfix-1.21-1.6-fabric.jar" "https://cdn.modrinth.com/data/QdG47OkI/versions/FUZo6yCk/modelfix-1.21-1.6-fabric.jar"
 curl -L -s -o "mods/papi-fabric-1.21.1-1.3.0.jar" "https://cdn.modrinth.com/data/xedaBnSm/versions/snaOp4cu/papi-fabric-1.21.1-1.3.0.jar"
@@ -90,7 +87,6 @@ curl -L -s -o "mods/sodium-extra-fabric-0.9.5%2Bmc1.21.1.jar" "https://cdn.modri
 curl -L -s -o "mods/sodiumoptionsapi-fabric-1.0.10-1.21.1.jar" "https://cdn.modrinth.com/data/Es5v4eyq/versions/RR1lyQmh/sodiumoptionsapi-fabric-1.0.10-1.21.1.jar"
 curl -L -s -o "mods/modmenu-11.0.5.jar" "https://cdn.modrinth.com/data/mOgUt4GM/versions/6lgOkclV/modmenu-11.0.5.jar"
 curl -L -s -o "mods/placeholder-api-2.4.2%2B1.21.jar" "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar"
-curl -L -s -o "mods/Debugify-1.21.1%2B1.1.jar" "https://cdn.modrinth.com/data/QwxR6Gcd/versions/pyIdu3f1/Debugify-1.21.1%2B1.1.jar"
 curl -L -s -o "mods/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar" "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar"
 curl -L -s -o "mods/CrashAssistant-fabric-1.20.2-1.21.4-1.11.12.jar" "https://cdn.modrinth.com/data/ix1qq8Ux/versions/AYajytbk/CrashAssistant-fabric-1.20.2-1.21.4-1.11.12.jar"
 curl -L -s -o "mods/tooltipfix-1.1.1-1.20.jar" "https://cdn.modrinth.com/data/2RKFTmiB/versions/B2L4LeMV/tooltipfix-1.1.1-1.20.jar"
@@ -101,7 +97,6 @@ curl -L -s -o "mods/observable-5.4.4.jar" "https://cdn.modrinth.com/data/VYRu7qm
 curl -L -s -o "mods/Chunky-Fabric-1.4.23.jar" "https://cdn.modrinth.com/data/fALzjamp/versions/RVFHfo1D/Chunky-Fabric-1.4.23.jar"
 curl -L -s -o "mods/CrossbowOptimizer-1.1.0%2B1.21-1.21.1.jar" "https://cdn.modrinth.com/data/opVUHMnN/versions/nXVeaSeD/CrossbowOptimizer-1.1.0%2B1.21-1.21.1.jar"
 curl -L -s -o "mods/WalksyLib-2.0.4%2B1.21-1.21.1.jar" "https://cdn.modrinth.com/data/7P86n6Vg/versions/ymxBFHR6/WalksyLib-2.0.4%2B1.21-1.21.1.jar"
-curl -L -s -o "mods/XPBottleOptimizer-1.21.X.jar" "https://cdn.modrinth.com/data/c5VHeSai/versions/VCQKPhrF/XPBottleOptimizer-1.21.X.jar"
 curl -L -s -o "mods/ConsumableOptimizer-2.2.3%2B1.21-1.21.1.jar" "https://cdn.modrinth.com/data/4alTd2ag/versions/pkZsST4K/ConsumableOptimizer-2.2.3%2B1.21-1.21.1.jar"
 curl -L -s -o "mods/AchievementOptimizer-fabric-1.21.1-2.1.0.jar" "https://cdn.modrinth.com/data/SvXrP8rT/versions/cCzmNC5V/AchievementOptimizer-fabric-1.21.1-2.1.0.jar"
 curl -L -s -o "mods/AdvancementsScreenOptimizer-1.0.0%2B1.21.jar" "https://cdn.modrinth.com/data/wW0RqrxL/versions/fZ1b7O38/AdvancementsScreenOptimizer-1.0.0%2B1.21.jar"
@@ -112,4 +107,3 @@ curl -L -s -o "mods/lazy-ai-1.6.1.jar" "https://cdn.modrinth.com/data/qgWgCnzi/v
 curl -L -s -o "mods/owo-lib-0.12.15.4%2B1.21.jar" "https://cdn.modrinth.com/data/ccKDOlHs/versions/JB1fLQnc/owo-lib-0.12.15.4%2B1.21.jar"
 curl -L -s -o "mods/Ixeris-4.6.10%2B1.21.1-fabric.jar" "https://cdn.modrinth.com/data/p8RJPJIC/versions/j3X1nxNK/Ixeris-4.6.10%2B1.21.1-fabric.jar"
 curl -L -s -o "mods/reeses-sodium-options-fabric-2.2.4%2Bmc1.21.1.jar" "https://cdn.modrinth.com/data/Bh37bMuy/versions/XtuPOKUN/reeses-sodium-options-fabric-2.2.4%2Bmc1.21.1.jar"
-echo "Listo. Copia la carpeta mods a ~/.minecraft/mods"

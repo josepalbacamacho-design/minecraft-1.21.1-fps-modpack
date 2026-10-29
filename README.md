@@ -1,6 +1,6 @@
 # Modpack FPS / Rendimiento — Minecraft 1.21.1 Fabric
 
-Modpack **solo de rendimiento** para Minecraft Java **1.21.1** con **Fabric**. Contiene **132 mods**
+Modpack **solo de rendimiento** para Minecraft Java **1.21.1** con **Fabric**. Contiene **106 mods**
 descargados desde sus páginas oficiales de Modrinth: motores de renderizado, optimización de RAM,
 de red/ping, de bloques (cofres, hornos, tolvas), de entidades, de carga de chunks, de arranque,
 mods de tendencia y mods "olvidados" que casi nadie incluye.
@@ -14,8 +14,8 @@ mods de tendencia y mods "olvidados" que casi nadie incluye.
 
 | Carpeta / archivo | Qué es |
 |---|---|
-| `Modpack-FPS-1.21.1-Fabric.zip` | **El ZIP listo para descomprimir.** Los 110 `.jar` van en la **raíz** (sin carpeta `mods` dentro): se extrae directamente dentro de tu carpeta `mods`. |
-| `mods/` | **110 mods** — el modpack principal. Copia TODO el contenido de esta carpeta a tu `mods`. |
+| `Modpack-FPS-1.21.1-Fabric.zip` | **El ZIP listo para descomprimir.** Los 106 `.jar` van en la **raíz** (sin carpeta `mods` dentro): se extrae directamente dentro de tu carpeta `mods`. |
+| `mods/` | **106 mods** — el modpack principal. Copia TODO el contenido de esta carpeta a tu `mods`. |
 | `LISTA-DE-MODS.md` | Tabla completa: mod, versión, archivo, lado (cliente/servidor) y para qué sirve. |
 | `Modpack-FPS-1.21.1-Fabric.mrpack` | Archivo importable en **Modrinth App**, Prism Launcher o ATLauncher. |
 | `descargar-mods.bat` / `descargar-mods.sh` | Scripts que vuelven a descargar todos los `.jar` desde Modrinth si prefieres no clonar el repo. |
@@ -56,10 +56,10 @@ mods de tendencia y mods "olvidados" que casi nadie incluye.
 ### Opción D — Script de descarga
 - Windows: doble clic en `descargar-mods.bat`.
 - Linux/macOS: `bash descargar-mods.sh`.
-Descarga los 110 mods a la carpeta `mods/` desde Modrinth (útil si clonaste solo el texto del repo).
+Descarga los 106 mods a la carpeta `mods/` desde Modrinth (útil si clonaste solo el texto del repo).
 
 > **¿Prefieres no bajar el repo entero?** En GitHub: botón verde **Code → Download ZIP** descarga todo
-> el repositorio en un ZIP (incluye jars, docs y los ZIP de mods).
+> el repositorio en un ZIP (incluye los jars y la documentación).
 
 ---
 
@@ -68,7 +68,6 @@ Descarga los 110 mods a la carpeta `mods/` desde Modrinth (útil si clonaste sol
 ### Núcleo: los motores que realmente suben los FPS
 **Sodium** (motor de renderizado), **Lithium** (física, IA, ticks), **FerriteCore** + **Chloride** + **Palladium** (RAM),
 **ModernFix**, **ImmediatelyFast**, **EntityCulling**, **More Culling**, **BadOptimizations**, **Ixeris** (input lag),
-**Krypton** (red), **C2ME** (chunks multihilo), **ScalableLux** (iluminación), **Noisium** + **Fast Noise** (worldgen),
 **ThreadTweak** (hilos de CPU), **Particle Core** + **AsyncParticles**, **Exordium**, **Redirected**, **Faster Random**.
 
 ### Bloques concretos (cofres, camas, hornos, tolvas, cuadros, marcos)
@@ -77,7 +76,6 @@ Descarga los 110 mods a la carpeta `mods/` desde Modrinth (útil si clonaste sol
 **Faster Hoppers** / **Fast Furnace** (tolvas y hornos más rápidos, cambian el comportamiento vanilla).
 
 ### Objetos y entidades concretas (incluida la ballesta)
-**Crossbow Optimizer** (ballestas y flechas), **Xp Bottle Optimizer**, **Consumable Optimizer**,
 **Clumps** (orbes de XP), **Get It Together, Drops!** (fusión de ítems en el suelo), **Neruina** (entidades rotas que laguean),
 **Achievements Optimizer**, **Advancements Screen Optimizer**, **Not Enough Recipe Book** (quita el libro de recetas).
 
@@ -102,7 +100,6 @@ Descarga los 110 mods a la carpeta `mods/` desde Modrinth (útil si clonaste sol
 **Quick Pack**, **Borderless Fullscreen**, **Reese's Sodium Options**.
 
 ### FPS extra y utilidades
-**Dynamic FPS**, **FPS Reducer**, **Sodium Extra**, **Sodium Options API**, **Mod Menu**, **Debugify**,
 **Crash Assistant**, **ToolTipFix**, **Clean F3**, **spark** y **Observable** (profilers: te dicen exactamente
 qué mod te baja los FPS), **Chunky** (pre-genera el mundo y elimina tirones), **Kerria** (animación de texturas).
 
@@ -126,8 +123,6 @@ Mods que casi nadie mete en sus packs pero funcionan y se notan:
 - **Exordium** — bufferiza el HUD e inventarios (sube FPS en menús, muy olvidado).
 - **FeyTweaks / Gnetum / Better Biome Reblend** — renderizado de carteles, bloques y biomas.
 - **Async Logger** — los logs dejan de bloquear el hilo principal.
-- **Structure Layout Optimizer / Fast Noise / Does It Tick? / Despawn Tweaks / MobsBeGone** — lado servidor.
-- **Crossbow Optimizer / Xp Bottle Optimizer / Consumable Optimizer / Achievements Optimizer** — objetos concretos.
 - **LazyAI / OptimizeMod / Lazy Language Loader / ResourcePackCached** — optimizaciones "de nicho".
 - **Fast IP Ping + Server Pinger Fixer** — el arreglo del ping de servidores que pediste.
 
@@ -135,15 +130,9 @@ Mods que casi nadie mete en sus packs pero funcionan y se notan:
 
 ## Avisos importantes (evita crasheos)
 
-1. **EBE, BBE, FastChest y OBE son alternativas entre sí.** En `mods/` ya viene **Enhanced Block Entities**.
-   Si prefieres otro, borra EBE y pon **solo uno** de los otros tres.
-   *Sodium Leaf Culling*: usa como máximo uno y solo si quieres exprimir más (pueden solaparse con More Culling).
-3. **Sodium y VulkanMod son incompatibles.** VulkanMod sustituye a Sodium: si lo usas, borra Sodium, Sodium Extra,
-   Reese's Sodium Options, Chloride y Sodium Extras.
-6. **GPUBooster** es incompatible con VulkanMod y puede no gustar a todas las GPUs: pruébalo por separado.
-7. **FPS Reducer, Dynamic FPS y FPS-Sync** hacen cosas parecidas (limitar FPS). `mods/` ya trae los dos primeros;
-8. **XXL Packets y Extra Thicc Packets** son alternativas: usa solo una y solo si algún mod lo pide.
-10. Si el juego crashea, **Crash Assistant** te dirá qué mod lo causó; **spark** te dirá qué te come los FPS.
+1. Usa **Fabric Loader 0.20.1 o superior** y **Java 21**.
+2. El pack principal ya está depurado: no añadas otros mods de optimización encima sin revisar sus dependencias.
+3. Si el juego crashea, **Crash Assistant** puede indicar el mod causante; **spark** permite medir qué está provocando el lag.
 
 ## Ajustes recomendados después de instalar
 

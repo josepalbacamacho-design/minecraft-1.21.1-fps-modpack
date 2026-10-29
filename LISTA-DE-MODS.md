@@ -10,13 +10,11 @@ Leyenda del lado: **C** = cliente (solo tu PC), **S** = servidor (mejora el mund
 | [Alternate Current](https://modrinth.com/mod/alternate-current) | `mc1.21-1.9.0` | `alternate-current-mc1.21-1.9.0.jar` | S | Redstone mucho más eficiente (granjas y circuitos grandes). |
 | [AsyncParticles](https://modrinth.com/mod/asyncparticles) | `21.1.4.10` | `AsyncParticles-21.1.4.10+1.21.1.jar` | C | Renderiza partículas en hilos aparte para evitar tirones. |
 | [BadOptimizations](https://modrinth.com/mod/badoptimizations) | `2.4.1` | `BadOptimizations-2.4.1-1.21.1.jar` | C | Micro-optimizaciones que suben FPS de forma medible. |
-| [C2ME (Concurrent Chunk Management Engine)](https://modrinth.com/mod/c2me-fabric) | `0.4.0-alpha.0.30+1.21.1` | `c2me-fabric-mc1.21.1-0.4.0-alpha.0.30.jar` | C/S | Carga y generación de chunks multihilo. Enorme en mundos grandes. |
 | [Clumps](https://modrinth.com/mod/clumps) | `19.0.0.1` | `Clumps-fabric-1.21.1-19.0.0.1.jar` | C/S | Agrupa orbes de experiencia: menos entidades y menos lag. |
 | [Despawn Tweaks](https://modrinth.com/mod/despawn-tweaks) | `fabric-1.21.1-1.0.0` | `despawntweaks-fabric-1.0.0-1.21.1.jar` | S | Ajusta tiempos de despawn para reducir entidades. |
 | [Does It Tick?](https://modrinth.com/mod/does-it-tick) | `fabric-1.21.1-1.1.4` | `does_it_tick-fabric-1.1.4-1.21.1.jar` | S | Deja de tickear entidades en chunks que no lo necesitan. |
 | [EntityCulling](https://modrinth.com/mod/entityculling) | `1.11.3` | `entityculling-fabric-1.11.3-mc1.21.1.jar` | C | No renderiza entidades/bloques ocultos. Sube FPS notablemente. |
 | [Exordium](https://modrinth.com/mod/exordium) | `1.4.2` | `exordium-fabric-1.4.2-mc1.21.jar` | C | Bufferiza el renderizado del HUD/inventario: sube FPS en menús. |
-| [Fast Noise](https://modrinth.com/mod/zfastnoise) | `1.0.14+1.21` | `zfastnoise-1.0.14+1.21.jar` | C/S | Ruido de worldgen más rápido (complementa a Noisium). |
 | [Faster Random](https://modrinth.com/mod/faster-random) | `5.1.0` | `fasterrandom-5.1.0.jar` | C/S | Generador de números aleatorios más rápido. |
 | [FerriteCore](https://modrinth.com/mod/ferrite-core) | `7.0.3-fabric` | `ferritecore-7.0.3-fabric.jar` | C/S | Reduce drásticamente el uso de RAM. |
 | [Get It Together, Drops!](https://modrinth.com/mod/get-it-together-drops) | `v1.3.1` | `getittogetherdrops-fabric-1.21-1.3.1.jar` | S | Fusiona objetos tirados en el suelo: menos entidades. |
@@ -32,7 +30,6 @@ Leyenda del lado: **C** = cliente (solo tu PC), **S** = servidor (mejora el mund
 | [ModernFix](https://modrinth.com/mod/modernfix) | `5.25.1+mc1.21.1` | `modernfix-fabric-5.25.1+mc1.21.1.jar` | C/S | Mejora arranque, memoria y carga de chunks. |
 | [More Culling](https://modrinth.com/mod/moreculling) | `1.0.10` | `moreculling-fabric-1.21.1-1.0.10.jar` | C | Culling avanzado de hojas, cristales, marcos y más. |
 | [Neruina - Ticking Entity Fixer](https://modrinth.com/mod/neruina) | `3.3.5` | `neruina-3.3.5+1.21.1-fabric.jar` | C/S | Detiene entidades rotas que causan lag y crasheos. |
-| [Noisium](https://modrinth.com/mod/noisium) | `2.3.0+mc1.21-1.21.1` | `noisium-fabric-2.3.0+mc1.21-1.21.1.jar` | C/S | Acelera la generación del terreno (worldgen). |
 | [Not Enough Recipe Book (NERB)](https://modrinth.com/mod/notenoughrecipebook) | `0.4.3` | `Not Enough Recipe Book-FABRIC-0.4.3+1.21.jar` | C/S | Elimina la sincronización del libro de recetas: gran alivio en servidor. |
 | [Palladium](https://modrinth.com/mod/mpalladium) | `1.1.7.3p-1.21-1.21.2` | `Palladium-1.21-1.21.2-1.1.7.3p.jar` | C/S | Deduplicación de datos y memoria: optimización profunda (también en servidor). |
 | [Particle Core](https://modrinth.com/mod/particle-core) | `0.3.3+1.21` | `particle_core-0.3.3+1.21.jar` | C | Sistema de partículas optimizado. |
@@ -50,7 +47,7 @@ Leyenda del lado: **C** = cliente (solo tu PC), **S** = servidor (mejora el mund
 |---|---|---|---|---|
 | [Better Beds](https://modrinth.com/mod/better-beds) | `1.4.0-fabric` | `betterbeds-fabric-1.4.0.jar` | C | Camas renderizadas de forma más eficiente. |
 | [Better Biome Reblend](https://modrinth.com/mod/bbrb) | `1.5.2` | `betterbiomeblend-1.5.2.jar` | C | Mezcla de biomas más rápida y sin tirones. |
-| [BetterGrassify](https://modrinth.com/mod/bettergrassify) | `1.8.7+fabric.1.21.1` | `BetterGrassify-1.8.7+fabric.1.21.1.jar` | C | Hierba lateral optimizada sin coste de rendimiento. |
+| [BetterGrassify](https://modrinth.com/mod/bettergrassify) | `1.8.3+fabric.1.21.1` | `BetterGrassify-1.8.3+fabric.1.21.1.jar` | C | Hierba lateral optimizada sin coste de rendimiento. |
 | [Boat Item View](https://modrinth.com/mod/boat-item-view) | `1.21-1.21.1-0.0.6-fabric` | `boatiview-fabric-0.0.6-1.21.1.jar` | C | Optimiza el renderizado de objetos en barcos. |
 | [Enhanced Block Entities (EBE)](https://modrinth.com/mod/ebe) | `0.10.2+1.21` | `enhancedblockentities-0.10.2+1.21.jar` | C | Cofres, camas, shulkers y carteles con renderizado optimizado. |
 | [Entity View Distance](https://modrinth.com/mod/entity-view-distance) | `1.3.0+1.21` | `entity-view-distance-1.3.0+1.21.jar` | C/S | Limita la distancia de renderizado de entidades. |
@@ -106,7 +103,6 @@ Leyenda del lado: **C** = cliente (solo tu PC), **S** = servidor (mejora el mund
 | [Consumable Optimizer](https://modrinth.com/mod/consumableoptimizer) | `2.2.3+1.21-1.21.1` | `ConsumableOptimizer-2.2.3+1.21-1.21.1.jar` | C | Optimiza el uso de consumibles (comida, pociones). |
 | [Crash Assistant](https://modrinth.com/mod/crash-assistant) | `1.11.12` | `CrashAssistant-fabric-1.20.2-1.21.4-1.11.12.jar` | C | Diagnostica crasheos y conflictos de mods. |
 | [Crossbow Optimizer](https://modrinth.com/mod/crossbow-optimizer) | `1.1.0+1.21-1.21.1` | `CrossbowOptimizer-1.1.0+1.21-1.21.1.jar` | C | Optimiza el renderizado/cálculo de ballestas y flechas. |
-| [Debugify](https://modrinth.com/mod/debugify) | `1.21.1+1.1` | `Debugify-1.21.1+1.1.jar` | C/S | Arregla decenas de bugs de Mojang, varios con impacto en rendimiento. |
 | [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) | `3.11.4` | `dynamic-fps-3.11.4+minecraft-1.21.0-fabric.jar` | C | Baja los FPS cuando la ventana no está en uso: menos consumo. |
 | [FPS Reducer](https://modrinth.com/mod/fps-reducer) | `1.21-2.9` | `FpsReducer2-fabric-1.21-2.9.jar` | C | Reduce FPS automáticamente en menús o inactividad. |
 | [Kerria](https://modrinth.com/mod/kerria-opt) | `1.3.2+1.21.1-fabric` | `Kerria-1.3.2+1.21.1-fabric.jar` | C | Anima las texturas mucho más rápido (mod de tendencia). |
@@ -117,7 +113,6 @@ Leyenda del lado: **C** = cliente (solo tu PC), **S** = servidor (mejora el mund
 | [Sodium Options API](https://modrinth.com/mod/sodium-options-api) | `fabric-1.21.1-1.0.10` | `sodiumoptionsapi-fabric-1.0.10-1.21.1.jar` | C | API que necesitan los complementos de opciones de Sodium. |
 | [spark](https://modrinth.com/mod/spark) | `1.10.109-fabric` | `spark-1.10.109-fabric.jar` | C/S | Profiler: mide exactamente qué te está bajando los FPS. |
 | [ToolTipFix](https://modrinth.com/mod/tooltipfix) | `1.1.1-1.20` | `tooltipfix-1.1.1-1.20.jar` | C | Arregla tooltips enormes que bajan los FPS en inventarios. |
-| [Xp Bottle Optimizer](https://modrinth.com/mod/xp-bottle-optimizer) | `1.0.0+1.21.X` | `XPBottleOptimizer-1.21.X.jar` | C/S | Optimiza las botellas de experiencia y sus entidades. |
 
 ## APIs y librerías (24)
 
@@ -143,8 +138,6 @@ Leyenda del lado: **C** = cliente (solo tu PC), **S** = servidor (mejora el mund
 | [Text Placeholder API](https://modrinth.com/mod/placeholder-api) | `2.4.2+1.21` | `placeholder-api-2.4.2+1.21.jar` | C/S | Dependencia requerida por Mod Menu |
 | [TxniLib](https://modrinth.com/mod/txnilib) | `fabric-1.21.1-1.0.24` | `txnilib-fabric-1.0.24-1.21.1.jar` | C/S | Dependencia requerida por Redirected |
 | [WalksyLib](https://modrinth.com/mod/walksylib) | `2.0.4+1.21-1.21.1` | `WalksyLib-2.0.4+1.21-1.21.1.jar` | C/S | Dependencia requerida por Crossbow Optimizer |
-| [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) | `3.8.2+1.21.1-fabric` | `yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar` | C/S | Dependencia requerida por Debugify |
-| [ZConfig](https://modrinth.com/mod/zconfig) | `1.0.0+1.21.x` | `zconfig-1.0.0+1.21.x.jar` | C/S | Dependencia requerida por Fast Noise |
 
 
 | Mod | Versión | Archivo | Lado | Para qué sirve |
