@@ -15,9 +15,7 @@ mods de tendencia y mods "olvidados" que casi nadie incluye.
 | Carpeta / archivo | Qué es |
 |---|---|
 | `Modpack-FPS-1.21.1-Fabric.zip` | **El ZIP listo para descomprimir.** Los 110 `.jar` van en la **raíz** (sin carpeta `mods` dentro): se extrae directamente dentro de tu carpeta `mods`. |
-| `opcionales.zip` | ZIP con los 22 mods opcionales, también con los `.jar` en la raíz (no los copies todos, son alternativas). |
 | `mods/` | **110 mods** — el modpack principal. Copia TODO el contenido de esta carpeta a tu `mods`. |
-| `opcionales/` | **22 mods** que son alternativas entre sí o que dependen de tu hardware/shaders. **No metas toda la carpeta de golpe**, lee el aviso de cada uno. |
 | `LISTA-DE-MODS.md` | Tabla completa: mod, versión, archivo, lado (cliente/servidor) y para qué sirve. |
 | `Modpack-FPS-1.21.1-Fabric.mrpack` | Archivo importable en **Modrinth App**, Prism Launcher o ATLauncher. |
 | `descargar-mods.bat` / `descargar-mods.sh` | Scripts que vuelven a descargar todos los `.jar` desde Modrinth si prefieres no clonar el repo. |
@@ -76,7 +74,6 @@ Descarga los 110 mods a la carpeta `mods/` desde Modrinth (útil si clonaste sol
 ### Bloques concretos (cofres, camas, hornos, tolvas, cuadros, marcos)
 **Enhanced Block Entities** (cofres, camas, shulkers, carteles), **Fast Paintings**, **Fast Item Frames**,
 **Better Beds**, **Boat Item View**, **FeyTweaks** (carteles con texto), **Gnetum**, **Entity View Distance**.
-En `opcionales/` tienes **Better Block Entities**, **FastChest** y **OBE** (alternativas a EBE) y
 **Faster Hoppers** / **Fast Furnace** (tolvas y hornos más rápidos, cambian el comportamiento vanilla).
 
 ### Objetos y entidades concretas (incluida la ballesta)
@@ -87,7 +84,6 @@ En `opcionales/` tienes **Better Block Entities**, **FastChest** y **OBE** (alte
 ### RAM y GPU
 **FerriteCore**, **Chloride**, **Palladium**, **Put A Plug In it! (PAPI)** (fugas de memoria),
 **Shut Up GL Error**, **Async Logger** (logs en otro hilo = menos tirones), **Log Cleaner**.
-En `opcionales/`: **GPUBooster** (menos VRAM) y **Super Resolution** (escalado tipo FSR).
 
 ### Red, ping y servidores (lo que pediste específicamente)
 | Mod | Qué arregla |
@@ -99,7 +95,6 @@ En `opcionales/`: **GPUBooster** (menos VRAM) y **Super Resolution** (escalado t
 | **Bad Packets** | Ignora paquetes inválidos de servidores en vez de procesarlos. |
 | **Very Many Players (VMP)** | Servidores con mucha gente sin caídas de TPS. |
 | **ServerCore** | Optimizaciones del lado servidor (también ayuda en LAN). |
-| `opcionales/`: **XXL Packets** / **Extra Thicc Packets** | Suben el límite de tamaño de paquetes (usa solo uno). |
 
 ### Carga, arranque y menús
 **DashLoader**, **Async Pack Scan**, **ResourcePackCached**, **Remove Reloading Screen**, **Language Reload**,
@@ -142,17 +137,12 @@ Mods que casi nadie mete en sus packs pero funcionan y se notan:
 
 1. **EBE, BBE, FastChest y OBE son alternativas entre sí.** En `mods/` ya viene **Enhanced Block Entities**.
    Si prefieres otro, borra EBE y pon **solo uno** de los otros tres.
-2. **Culling de hojas:** `mods/` ya trae **More Culling**. En `opcionales/` están *Cull Less Leaves*, *Cull Leaves* y
    *Sodium Leaf Culling*: usa como máximo uno y solo si quieres exprimir más (pueden solaparse con More Culling).
 3. **Sodium y VulkanMod son incompatibles.** VulkanMod sustituye a Sodium: si lo usas, borra Sodium, Sodium Extra,
    Reese's Sodium Options, Chloride y Sodium Extras.
-5. **Iris (shaders)** está en `opcionales/`. Los shaders bajan FPS: solo instálalos si quieres shaders.
-   Si los instalas, añade también **FISM** de `opcionales/` para acelerar las sombras.
 6. **GPUBooster** es incompatible con VulkanMod y puede no gustar a todas las GPUs: pruébalo por separado.
 7. **FPS Reducer, Dynamic FPS y FPS-Sync** hacen cosas parecidas (limitar FPS). `mods/` ya trae los dos primeros;
-   `FPS-Sync` está en opcionales por si prefieres limitar a la tasa del monitor sin V-Sync.
 8. **XXL Packets y Extra Thicc Packets** son alternativas: usa solo una y solo si algún mod lo pide.
-9. **`opcionales/` no es para copiar entero.** Mete solo los que quieras, respetando los avisos.
 10. Si el juego crashea, **Crash Assistant** te dirá qué mod lo causó; **spark** te dirá qué te come los FPS.
 
 ## Ajustes recomendados después de instalar
