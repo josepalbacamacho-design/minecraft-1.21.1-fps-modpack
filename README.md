@@ -1,5 +1,9 @@
 # Modpack FPS / Rendimiento — Minecraft 1.21.1 Fabric
 
+[![Descargar Modpack ZIP](https://img.shields.io/badge/Descarga%20Directa-Modpack%20ZIP%20(67%20MB)-brightgreen?style=for-the-badge&logo=github)](https://github.com/josepalbacamacho-design/minecraft-1.21.1-fps-modpack/releases/download/v1.0.0/Modpack-FPS-1.21.1-Fabric.zip)
+
+> 🚀 **Descarga directa:** Haz clic en el botón verde de arriba o entra a la sección de [Releases oficiales](https://github.com/josepalbacamacho-design/minecraft-1.21.1-fps-modpack/releases/tag/v1.0.0) para bajar `Modpack-FPS-1.21.1-Fabric.zip` con 1 solo clic.
+
 Modpack **solo de rendimiento** para Minecraft Java **1.21.1** con **Fabric**. Contiene **106 mods**
 descargados desde sus páginas oficiales de Modrinth: motores de renderizado, optimización de RAM,
 de red/ping, de bloques (cofres, hornos, tolvas), de entidades, de carga de chunks, de arranque,
