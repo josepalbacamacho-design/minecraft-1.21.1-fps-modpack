@@ -14,8 +14,8 @@ mods de tendencia y mods "olvidados" que casi nadie incluye.
 
 | Carpeta / archivo | Qué es |
 |---|---|
-| `Modpack-FPS-1.21.1-Fabric.zip` | **El ZIP listo para descomprimir.** Dentro viene la carpeta `mods/` con los 110 mods. |
-| `opcionales.zip` | ZIP con los 22 mods opcionales (no los copies todos, son alternativas). |
+| `Modpack-FPS-1.21.1-Fabric.zip` | **El ZIP listo para descomprimir.** Los 110 `.jar` van en la **raíz** (sin carpeta `mods` dentro): se extrae directamente dentro de tu carpeta `mods`. |
+| `opcionales.zip` | ZIP con los 22 mods opcionales, también con los `.jar` en la raíz (no los copies todos, son alternativas). |
 | `mods/` | **110 mods** — el modpack principal. Copia TODO el contenido de esta carpeta a tu `mods`. |
 | `opcionales/` | **22 mods** que son alternativas entre sí o que dependen de tu hardware/shaders. **No metas toda la carpeta de golpe**, lee el aviso de cada uno. |
 | `alternativa-nvidia/` | Sodium 0.6.13 + Sodium Extra 0.6.0 + **Nvidium** para GPUs NVIDIA (sustituyen a los del set principal). |
@@ -37,11 +37,12 @@ mods de tendencia y mods "olvidados" que casi nadie incluye.
 
 ### Opción A — ZIP (la más rápida)
 1. Descarga **`Modpack-FPS-1.21.1-Fabric.zip`** (botón *Download* en el repositorio).
-2. Descomprímelo **dentro de la carpeta `.minecraft`** de tu launcher:
-   - Windows: `%appdata%\.minecraft\`
-   - Linux: `~/.minecraft/`
-   - macOS: `~/Library/Application Support/minecraft/`
-3. Si ya tienes una carpeta `mods`, se fusiona: no borra nada de lo que ya tengas.
+2. Abre tu **carpeta `mods`** (inicia el juego una vez con el perfil de Fabric para que se cree):
+   - Windows: `%appdata%\.minecraft\mods`
+   - Linux: `~/.minecraft/mods`
+   - macOS: `~/Library/Application Support/minecraft/mods`
+3. Copia el ZIP ahí dentro y usa **"Extraer aquí"**. Los `.jar` quedan sueltos junto a los que ya tengas,
+   sin subcarpetas. No borra nada de lo que ya tengas.
 4. Abre el perfil de Fabric 1.21.1 con Java 21. Listo.
 
 ### Opción B — Manual
