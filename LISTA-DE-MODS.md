@@ -1,6 +1,6 @@
 # Lista completa de mods — Modpack FPS 1.21.1 Fabric
 
-Total: **133 mods** descargados desde [Modrinth](https://modrinth.com) (110 en `mods/`, 23 en `opcionales/`) + 3 archivos en `alternativa-nvidia/`.
+Total: **132 mods** descargados desde [Modrinth](https://modrinth.com) (110 en `mods/`, 22 en `opcionales/`) + 3 archivos en `alternativa-nvidia/`.
 
 Leyenda del lado: **C** = cliente (solo tu PC), **S** = servidor (mejora el mundo/otros jugadores), **C/S** = ambos.
 
@@ -159,7 +159,7 @@ Leyenda del lado: **C** = cliente (solo tu PC), **S** = servidor (mejora el mund
 | [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) | `3.8.2+1.21.1-fabric` | `yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar` | C/S | Dependencia requerida por Debugify |
 | [ZConfig](https://modrinth.com/mod/zconfig) | `1.0.0+1.21.x` | `zconfig-1.0.0+1.21.x.jar` | C/S | Dependencia requerida por Fast Noise |
 
-## Gráficos opcionales (13) — carpeta `opcionales/`
+## Gráficos opcionales (12) — carpeta `opcionales/`
 
 | Mod | Versión | Archivo | Lado | Para qué sirve |
 |---|---|---|---|---|
@@ -170,7 +170,6 @@ Leyenda del lado: **C** = cliente (solo tu PC), **S** = servidor (mejora el mund
 | [Faster Iris Shadow Mapper (FISM)](https://modrinth.com/mod/fism) | `1.0.5` | `fism+1.21.1-1.0.5.jar` | C | Solo con Iris + shaders: acelera el shadow mapping. |
 | [FPS-Sync (FPS Limiter)](https://modrinth.com/mod/fps-sync) | `1.0.0` | `fps-sync-1.0.0+1.21.0-1.jar` | C | Limita los FPS de forma inteligente. Alternativa a FPS Reducer. |
 | [Iris Shaders](https://modrinth.com/mod/iris) | `1.8.8+1.21.1-fabric` | `iris-fabric-1.8.8+mc1.21.1.jar` | C | Soportes de shaders. Baja FPS con shaders activados, súbelo con Nvidium/Exordium. |
-| [Nvidium](https://modrinth.com/mod/nvidium) | `0.3.1` | `nvidium-0.3.1.jar` | C | Solo GPUs NVIDIA. Multiplica los FPS con render distance alto. |
 | [Sodium Dynamic Lights](https://modrinth.com/mod/sodium-dynamic-lights) | `fabric-1.21.1-1.0.10` | `sodiumdynamiclights-fabric-1.0.10-1.21.1.jar` | C | Luces dinámicas compatibles con Sodium. |
 | [Sodium Extras](https://modrinth.com/mod/sodium-extras) | `fabric-1.21.1-1.0.8` | `sodiumextras-fabric-1.0.8-1.21.1.jar` | C | Opciones extra de Sodium. Puede solaparse con Sodium Extra. |
 | [Sodium Leaf Culling](https://modrinth.com/mod/sodiumleafculling) | `1.0.1` | `sodiumleafculling-fabric-1.0.1-1.21.1.jar` | C | Culling de hojas extra. Alternativa a Cull Less Leaves. |

@@ -1,6 +1,6 @@
 # Modpack FPS / Rendimiento — Minecraft 1.21.1 Fabric
 
-Modpack **solo de rendimiento** para Minecraft Java **1.21.1** con **Fabric**. Contiene **133 mods**
+Modpack **solo de rendimiento** para Minecraft Java **1.21.1** con **Fabric**. Contiene **132 mods**
 descargados desde sus páginas oficiales de Modrinth: motores de renderizado, optimización de RAM,
 de red/ping, de bloques (cofres, hornos, tolvas), de entidades, de carga de chunks, de arranque,
 mods de tendencia y mods "olvidados" que casi nadie incluye.
@@ -15,7 +15,7 @@ mods de tendencia y mods "olvidados" que casi nadie incluye.
 | Carpeta / archivo | Qué es |
 |---|---|
 | `mods/` | **110 mods** — el modpack principal. Copia TODO el contenido de esta carpeta a tu `mods`. |
-| `opcionales/` | **23 mods** que son alternativas entre sí o que dependen de tu hardware/shaders. **No metas toda la carpeta de golpe**, lee el aviso de cada uno. |
+| `opcionales/` | **22 mods** que son alternativas entre sí o que dependen de tu hardware/shaders. **No metas toda la carpeta de golpe**, lee el aviso de cada uno. |
 | `alternativa-nvidia/` | Sodium 0.6.13 + Sodium Extra 0.6.0 + **Nvidium** para GPUs NVIDIA (sustituyen a los del set principal). |
 | `LISTA-DE-MODS.md` | Tabla completa: mod, versión, archivo, lado (cliente/servidor) y para qué sirve. |
 | `Modpack-FPS-1.21.1-Fabric.mrpack` | Archivo importable en **Modrinth App**, Prism Launcher o ATLauncher. |
