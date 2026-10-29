@@ -18,7 +18,6 @@ mods de tendencia y mods "olvidados" que casi nadie incluye.
 | `opcionales.zip` | ZIP con los 22 mods opcionales, también con los `.jar` en la raíz (no los copies todos, son alternativas). |
 | `mods/` | **110 mods** — el modpack principal. Copia TODO el contenido de esta carpeta a tu `mods`. |
 | `opcionales/` | **22 mods** que son alternativas entre sí o que dependen de tu hardware/shaders. **No metas toda la carpeta de golpe**, lee el aviso de cada uno. |
-| `alternativa-nvidia/` | Sodium 0.6.13 + Sodium Extra 0.6.0 + **Nvidium** para GPUs NVIDIA (sustituyen a los del set principal). |
 | `LISTA-DE-MODS.md` | Tabla completa: mod, versión, archivo, lado (cliente/servidor) y para qué sirve. |
 | `Modpack-FPS-1.21.1-Fabric.mrpack` | Archivo importable en **Modrinth App**, Prism Launcher o ATLauncher. |
 | `descargar-mods.bat` / `descargar-mods.sh` | Scripts que vuelven a descargar todos los `.jar` desde Modrinth si prefieres no clonar el repo. |
@@ -147,8 +146,6 @@ Mods que casi nadie mete en sus packs pero funcionan y se notan:
    *Sodium Leaf Culling*: usa como máximo uno y solo si quieres exprimir más (pueden solaparse con More Culling).
 3. **Sodium y VulkanMod son incompatibles.** VulkanMod sustituye a Sodium: si lo usas, borra Sodium, Sodium Extra,
    Reese's Sodium Options, Chloride y Sodium Extras.
-4. **Nvidium solo funciona con Sodium 0.6.13** (solo GPUs NVIDIA). Por eso está en `alternativa-nvidia/`:
-   si lo usas, reemplaza el Sodium y el Sodium Extra principales por los de esa carpeta.
 5. **Iris (shaders)** está en `opcionales/`. Los shaders bajan FPS: solo instálalos si quieres shaders.
    Si los instalas, añade también **FISM** de `opcionales/` para acelerar las sombras.
 6. **GPUBooster** es incompatible con VulkanMod y puede no gustar a todas las GPUs: pruébalo por separado.

@@ -8,8 +8,7 @@ Estos mods son alternativas entre si o dependen de tu hardware. Lee esto antes d
 - Cull Less Leaves / Cull Leaves / Sodium Leaf Culling: culling de hojas. Usa como maximo UNO
   (mods/ ya trae More Culling, que tambien hace culling de hojas).
 - VulkanMod: reemplaza a Sodium. Si lo usas, borra Sodium, Sodium Extra, Reese's Sodium Options,
-  Chloride, Sodium Extras y Nvidium.
-- Nvidium: solo GPU NVIDIA y requiere Sodium 0.6.13 (ver carpeta alternativa-nvidia/).
+  Chloride y Sodium Extras.
 - Iris: shaders (bajan FPS). Si lo usas, anade tambien FISM.
 - XXL Packets / Extra Thicc Packets: usa solo uno.
 - FPS-Sync: alternativa a FPS Reducer / Dynamic FPS (ya incluidos en mods/).

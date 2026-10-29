@@ -1,6 +1,6 @@
 # Lista completa de mods — Modpack FPS 1.21.1 Fabric
 
-Total: **132 mods** descargados desde [Modrinth](https://modrinth.com) (110 en `mods/`, 22 en `opcionales/`) + 3 archivos en `alternativa-nvidia/`.
+Total: **132 mods** descargados desde [Modrinth](https://modrinth.com) (110 en `mods/`, 22 en `opcionales/`).
 
 Leyenda del lado: **C** = cliente (solo tu PC), **S** = servidor (mejora el mundo/otros jugadores), **C/S** = ambos.
 
@@ -169,20 +169,12 @@ Leyenda del lado: **C** = cliente (solo tu PC), **S** = servidor (mejora el mund
 | [Distant Horizons](https://modrinth.com/mod/distanthorizons) | `3.3.3-1.21.1` | `DistantHorizons-3.3.3-1.21.1-fabric-neoforge.jar` | C | LODs lejanos. Mejora la vista, no los FPS (archivo grande). |
 | [Faster Iris Shadow Mapper (FISM)](https://modrinth.com/mod/fism) | `1.0.5` | `fism+1.21.1-1.0.5.jar` | C | Solo con Iris + shaders: acelera el shadow mapping. |
 | [FPS-Sync (FPS Limiter)](https://modrinth.com/mod/fps-sync) | `1.0.0` | `fps-sync-1.0.0+1.21.0-1.jar` | C | Limita los FPS de forma inteligente. Alternativa a FPS Reducer. |
-| [Iris Shaders](https://modrinth.com/mod/iris) | `1.8.8+1.21.1-fabric` | `iris-fabric-1.8.8+mc1.21.1.jar` | C | Soportes de shaders. Baja FPS con shaders activados, súbelo con Nvidium/Exordium. |
+| [Iris Shaders](https://modrinth.com/mod/iris) | `1.8.8+1.21.1-fabric` | `iris-fabric-1.8.8+mc1.21.1.jar` | C | Soportes de shaders. Baja FPS con shaders activados, súbelo con Exordium. |
 | [Sodium Dynamic Lights](https://modrinth.com/mod/sodium-dynamic-lights) | `fabric-1.21.1-1.0.10` | `sodiumdynamiclights-fabric-1.0.10-1.21.1.jar` | C | Luces dinámicas compatibles con Sodium. |
 | [Sodium Extras](https://modrinth.com/mod/sodium-extras) | `fabric-1.21.1-1.0.8` | `sodiumextras-fabric-1.0.8-1.21.1.jar` | C | Opciones extra de Sodium. Puede solaparse con Sodium Extra. |
 | [Sodium Leaf Culling](https://modrinth.com/mod/sodiumleafculling) | `1.0.1` | `sodiumleafculling-fabric-1.0.1-1.21.1.jar` | C | Culling de hojas extra. Alternativa a Cull Less Leaves. |
 | [Super Resolution](https://modrinth.com/mod/superresolution) | `1.21-0.9.2-alpha.2+gl-fabric` | `super_resolution-fabric-1.21..1.21.1-0.9.2-alpha.2+opengl.jar` | C | Escalado FSR: sube FPS bajando la resolución interna. |
 | [VulkanMod](https://modrinth.com/mod/vulkanmod) | `0.6.7+1.21.1` | `VulkanMod-0.6.7+1.21.1.jar` | C | Alternativa a Sodium usando Vulkan. NO usar junto a Sodium. |
-
-## Alternativa para GPU NVIDIA — carpeta `alternativa-nvidia/`
-
-| Mod | Versión | Archivo | Nota |
-|---|---|---|---|
-| [Sodium 0.6.13 for Fabric 1.21.1](https://modrinth.com/mod/sodium) | `mc1.21.1-0.6.13-fabric` | `sodium-fabric-0.6.13+mc1.21.1.jar` | Versión 0.6.13, la única compatible con Nvidium. |
-| [[Fabric] Sodium Extra 0.6.0 for Minecraft 1.21.1](https://modrinth.com/mod/sodium-extra) | `mc1.21.1-0.6.0+fabric` | `sodium-extra-fabric-0.6.0+mc1.21.1.jar` | Versión 0.6.0, compatible con Sodium 0.6.13. |
-| [Nvidium 0.4.1-beta10-1.21-1.21.1](https://modrinth.com/mod/nvidium) | `0.4.1-beta10-1.21-1.21.1` | `nvidium-0.4.1-beta10-1.21-1.21.1.jar` | Multiplica los FPS con render distance alto (solo GPU NVIDIA). |
 
 ---
 
