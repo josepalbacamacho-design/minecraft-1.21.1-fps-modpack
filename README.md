@@ -1,10 +1,12 @@
 # Modpack FPS / Rendimiento — Minecraft 1.21.1 Fabric
 
-[![Descargar Modpack ZIP](https://img.shields.io/badge/Descarga%20Directa-Modpack%20ZIP%20(67%20MB)-brightgreen?style=for-the-badge&logo=github)](https://github.com/josepalbacamacho-design/minecraft-1.21.1-fps-modpack/releases/download/v1.0.0/Modpack-FPS-1.21.1-Fabric.zip)
+[![Descargar Modpack ZIP](https://img.shields.io/badge/Descarga%20Directa-Modpack%20ZIP%20(67%20MB)-brightgreen?style=for-the-badge&logo=github)](https://github.com/josepalbacamacho-design/minecraft-1.21.1-fps-modpack/releases/download/v1.1.0/Modpack-FPS-1.21.1-Fabric.zip)
 
-> 🚀 **Descarga directa:** Haz clic en el botón verde de arriba o entra a la sección de [Releases oficiales](https://github.com/josepalbacamacho-design/minecraft-1.21.1-fps-modpack/releases/tag/v1.0.0) para bajar `Modpack-FPS-1.21.1-Fabric.zip` con 1 solo clic.
+> 🚀 **Descarga directa:** Haz clic en el botón verde de arriba o entra a la sección de [Releases oficiales](https://github.com/josepalbacamacho-design/minecraft-1.21.1-fps-modpack/releases/tag/v1.1.0) para bajar `Modpack-FPS-1.21.1-Fabric.zip` con 1 solo clic.
 
-Modpack **solo de rendimiento** para Minecraft Java **1.21.1** con **Fabric**. Contiene **106 mods**
+Descargas adicionales: [ZIP completo con mods y shaders](https://github.com/josepalbacamacho-design/minecraft-1.21.1-fps-modpack/releases/download/v1.1.0/Modpack-FPS-1.21.1-Fabric-COMPLETO.zip) · [solo shaders](https://github.com/josepalbacamacho-design/minecraft-1.21.1-fps-modpack/releases/download/v1.1.0/Shaderpacks-FPS-1.21.1.zip).
+
+Modpack **solo de rendimiento** para Minecraft Java **1.21.1** con **Fabric**. Contiene **97 mods**, Iris y dos shaders
 descargados desde sus páginas oficiales de Modrinth: motores de renderizado, optimización de RAM,
 de red/ping, de bloques (cofres, hornos, tolvas), de entidades, de carga de chunks, de arranque,
 mods de tendencia y mods "olvidados" que casi nadie incluye.
@@ -18,10 +20,11 @@ mods de tendencia y mods "olvidados" que casi nadie incluye.
 
 | Carpeta / archivo | Qué es |
 |---|---|
-| `Modpack-FPS-1.21.1-Fabric.zip` | **El ZIP listo para descomprimir.** Los 106 `.jar` van en la **raíz** (sin carpeta `mods` dentro): se extrae directamente dentro de tu carpeta `mods`. |
-| `mods/` | **106 mods** — el modpack principal. Copia TODO el contenido de esta carpeta a tu `mods`. |
+| `Modpack-FPS-1.21.1-Fabric.zip` | **El ZIP listo para descomprimir.** Los 97 `.jar` van en la **raíz** (sin carpeta `mods` dentro): se extrae directamente dentro de tu carpeta `mods`. |
+| `mods/` | **97 mods** — el modpack principal. Copia TODO el contenido de esta carpeta a tu `mods`. |
 | `LISTA-DE-MODS.md` | Tabla completa: mod, versión, archivo, lado (cliente/servidor) y para qué sirve. |
-| `Modpack-FPS-1.21.1-Fabric.mrpack` | Archivo importable en **Modrinth App**, Prism Launcher o ATLauncher. |
+| `Shaderpacks-FPS-1.21.1.zip` | Los dos shaders listos para extraer en `.minecraft/shaderpacks`. |
+| `Modpack-FPS-1.21.1-Fabric-COMPLETO.zip` | ZIP con `mods/` y `shaderpacks/` ya separados. |
 | `descargar-mods.bat` / `descargar-mods.sh` | Scripts que vuelven a descargar todos los `.jar` desde Modrinth si prefieres no clonar el repo. |
 
 ---
@@ -52,15 +55,15 @@ mods de tendencia y mods "olvidados" que casi nadie incluye.
 3. **Copia todos los archivos `.jar` de la carpeta `mods/` de este repo** ahí dentro.
 4. Inicia el perfil de Fabric. Ya está.
 
-### Opción C — Importar el `.mrpack`
-1. Abre **Modrinth App** (o Prism Launcher).
-2. "Add instance" → "Import from file" → elige `Modpack-FPS-1.21.1-Fabric.mrpack`.
-3. La app descargará y colocará todos los mods automáticamente.
+### Opción C — ZIP completo con mods y shaders
+1. Descarga `Modpack-FPS-1.21.1-Fabric-COMPLETO.zip`.
+2. Extrae la carpeta `mods/` en tu carpeta de Minecraft y la carpeta `shaderpacks/` en la carpeta de shaders.
+3. Inicia Fabric 1.21.1 y selecciona el shader desde el menú de Iris.
 
 ### Opción D — Script de descarga
 - Windows: doble clic en `descargar-mods.bat`.
 - Linux/macOS: `bash descargar-mods.sh`.
-Descarga los 106 mods a la carpeta `mods/` desde Modrinth (útil si clonaste solo el texto del repo).
+Descarga los 97 mods a la carpeta `mods/` desde Modrinth (útil si clonaste solo el texto del repo).
 
 > **¿Prefieres no bajar el repo entero?** En GitHub: botón verde **Code → Download ZIP** descarga todo
 > el repositorio en un ZIP (incluye los jars y la documentación).
@@ -70,21 +73,20 @@ Descarga los 106 mods a la carpeta `mods/` desde Modrinth (útil si clonaste sol
 ## Qué incluye el modpack (resumen por categorías)
 
 ### Núcleo: los motores que realmente suben los FPS
-**Sodium** (motor de renderizado), **Lithium** (física, IA, ticks), **FerriteCore** + **Chloride** + **Palladium** (RAM),
-**ModernFix**, **ImmediatelyFast**, **EntityCulling**, **More Culling**, **BadOptimizations**, **Ixeris** (input lag),
-**ThreadTweak** (hilos de CPU), **Particle Core** + **AsyncParticles**, **Exordium**, **Redirected**, **Faster Random**.
+**Sodium** (motor de renderizado), **Lithium** (física, IA, ticks), **FerriteCore** + **Chloride** (RAM),
+**ModernFix**, **EntityCulling**, **More Culling**, **BadOptimizations**, **Ixeris** (input lag),
+**ThreadTweak** (hilos de CPU), **Particle Core**, **Exordium**, **Redirected**, **Faster Random**.
 
 ### Bloques concretos (cofres, camas, hornos, tolvas, cuadros, marcos)
-**Enhanced Block Entities** (cofres, camas, shulkers, carteles), **Fast Paintings**, **Fast Item Frames**,
-**Better Beds**, **Boat Item View**, **FeyTweaks** (carteles con texto), **Gnetum**, **Entity View Distance**.
-**Faster Hoppers** / **Fast Furnace** (tolvas y hornos más rápidos, cambian el comportamiento vanilla).
+**Enhanced Block Entities** (cofres, camas, shulkers, carteles), **Fast Paintings**, **Fast Item Frames**, **Boat Item View**, **FeyTweaks** (carteles con texto), **Gnetum**, **Entity View Distance**.
+El pack no fuerza cambios agresivos en tolvas u hornos para evitar alterar el comportamiento vanilla.
 
 ### Objetos y entidades concretas (incluida la ballesta)
 **Clumps** (orbes de XP), **Get It Together, Drops!** (fusión de ítems en el suelo), **Neruina** (entidades rotas que laguean),
 **Achievements Optimizer**, **Advancements Screen Optimizer**, **Not Enough Recipe Book** (quita el libro de recetas).
 
 ### RAM y GPU
-**FerriteCore**, **Chloride**, **Palladium**, **Put A Plug In it! (PAPI)** (fugas de memoria),
+**FerriteCore**, **Chloride**, **Put A Plug In it! (PAPI)** (fugas de memoria),
 **Shut Up GL Error**, **Async Logger** (logs en otro hilo = menos tirones), **Log Cleaner**.
 
 ### Red, ping y servidores (lo que pediste específicamente)
@@ -99,8 +101,8 @@ Descarga los 106 mods a la carpeta `mods/` desde Modrinth (útil si clonaste sol
 | **ServerCore** | Optimizaciones del lado servidor (también ayuda en LAN). |
 
 ### Carga, arranque y menús
-**DashLoader**, **Async Pack Scan**, **ResourcePackCached**, **Remove Reloading Screen**, **Language Reload**,
-**Lazy Language Loader**, **FastQuit**, **Epic Force Close Loading Screen**, **Cubes Without Borders**,
+**DashLoader**, **Async Pack Scan**, **Remove Reloading Screen**, **Language Reload**,
+**Lazy Language Loader**, **Epic Force Close Loading Screen**, **Cubes Without Borders**,
 **Quick Pack**, **Borderless Fullscreen**, **Reese's Sodium Options**.
 
 ### FPS extra y utilidades
@@ -122,15 +124,19 @@ Mods que casi nadie mete en sus packs pero funcionan y se notan:
 - **Ixeris** — entrada sin búfer y sondeo de eventos multihilo (menos input lag, tendencia en 2026).
 - **Kerria** — acelera la animación de texturas (muy de tendencia y apenas conocido).
 - **Chloride** — rendimiento extra sobre Sodium bajando RAM.
-- **Palladium** — deduplicación de datos y memoria (optimización profunda, poco conocida).
 - **PAPI (Put A Plug In it!)** — arregla fugas de memoria que el juego arrastra desde hace años.
 - **Exordium** — bufferiza el HUD e inventarios (sube FPS en menús, muy olvidado).
-- **FeyTweaks / Gnetum / Better Biome Reblend** — renderizado de carteles, bloques y biomas.
+- **FeyTweaks / Gnetum** — renderizado de carteles, bloques y biomas.
 - **Async Logger** — los logs dejan de bloquear el hilo principal.
-- **LazyAI / OptimizeMod / Lazy Language Loader / ResourcePackCached** — optimizaciones "de nicho".
+- **LazyAI / Lazy Language Loader** — optimizaciones "de nicho".
 - **Fast IP Ping + Server Pinger Fixer** — el arreglo del ping de servidores que pediste.
+- **Iris** — soporte para shaders en Fabric 1.21.1.
 
 ---
+
+## Shaders incluidos
+
+El pack actualizado incluye `MakeUp-UltraFast-9.6.zip` y `§lE-LITE shaders 5.1.3.zip`. Descarga `Shaderpacks-FPS-1.21.1.zip`, extrae ambos archivos en `.minecraft/shaderpacks` y selecciónalos desde **Opciones → Video → Shader Packs**. Iris ya viene dentro de `mods/`. En un celular de gama baja empieza con MakeUp UltraFast y una distancia de renderizado baja.
 
 ## Avisos importantes (evita crasheos)
 
@@ -164,4 +170,4 @@ Todos los mods son propiedad de sus autores y se descargan desde sus páginas of
 (los enlaces están en [LISTA-DE-MODS.md](LISTA-DE-MODS.md)). Este repositorio solo los reúne para que no tengas
 que buscarlos uno a uno. Respeta la licencia de cada mod si vas a redistribuirlo.
 
-**Versión de la recopilación:** 1.21.1 · Fabric · generada el 2026-10-29.
+**Versión de la recopilación:** 1.21.1 · Fabric · actualización con Iris y shaders · 2026-10-30.
